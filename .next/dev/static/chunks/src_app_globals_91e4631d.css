@@ -295,9 +295,9 @@ body {
 }
 
 .btn-no {
-  color: #999;
-  background: #c8c8c873;
-  border: 1px solid #a0a0a066;
+  color: #fff;
+  background: #000;
+  border: 1px solid #000;
   transition: none;
 }
 
@@ -367,6 +367,14 @@ body {
 
 .mt-5 {
   margin-top: 1.25rem;
+}
+
+.mb-20 {
+  margin-bottom: 5rem;
+}
+
+.mb-0 {
+  margin-bottom: 0;
 }
 
 .inline-block {
@@ -584,11 +592,6 @@ body {
 .text-lg {
   font-size: 1.125rem;
   line-height: 1.75rem;
-}
-
-.text-sm {
-  font-size: .875rem;
-  line-height: 1.25rem;
 }
 
 .text-xl {

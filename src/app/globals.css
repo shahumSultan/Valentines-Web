@@ -45,9 +45,9 @@
   }
 
   .btn-no {
-    background: rgba(200, 200, 200, 0.45);
-    border: 1px solid rgba(160, 160, 160, 0.4);
-    color: #999;
+    background: #000;
+    border: 1px solid #000;
+    color: #fff;
     transition: none;
   }
 }

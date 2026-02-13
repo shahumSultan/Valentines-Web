@@ -112,7 +112,7 @@ function NoButton() {
             "fixed z-20",
             "px-6 py-2.5",
             "rounded-full",
-            "text-sm font-medium",
+            "text-lg font-medium",
             "select-none cursor-pointer",
             shaking ? "animate-shake" : ""
         ].filter(Boolean).join(" "),
@@ -164,14 +164,14 @@ function generateBurst(count) {
             x: Math.cos(angle * Math.PI / 180) * distance,
             y: Math.sin(angle * Math.PI / 180) * distance,
             size: Math.random() * 1.6 + 1,
-            duration: Math.random() * 0.5 + 0.6,
+            duration: Math.random() * 0.3 + 0.6,
             delay: Math.random() * 0.3,
             symbol: BURST_SYMBOLS[i % BURST_SYMBOLS.length]
         };
     });
 }
 function Celebration() {
-    const [burstHearts] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(()=>generateBurst(26));
+    const [burstHearts] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(()=>generateBurst(48));
     const [visible, setVisible] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(false);
     (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useEffect"])(()=>{
         const t = setTimeout(()=>setVisible(true), 50);
@@ -190,6 +190,10 @@ function Celebration() {
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                 className: "relative flex items-center justify-center",
+                style: {
+                    width: "500px",
+                    height: "400px"
+                },
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "absolute inset-0 flex items-center justify-center",
@@ -271,11 +275,11 @@ function Celebration() {
                 "aria-hidden": "true",
                 className: "fixed inset-0 pointer-events-none overflow-hidden z-0",
                 children: Array.from({
-                    length: 14
+                    length: 28
                 }, (_, i)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                         className: "heart-particle text-2xl",
                         style: {
-                            left: `${i / 14 * 100}%`,
+                            left: `${i / 28 * 100}%`,
                             "--duration": `${5 + i * 0.5}s`,
                             "--delay": `-${i * 0.8}s`
                         },
@@ -355,9 +359,9 @@ function ValentineCard() {
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                            className: "font-dancing text-lg md:text-xl text-pink-500 mb-10 leading-relaxed",
+                            className: "font-dancing text-2xl md:text-2xl text-pink-500 mb-10 leading-relaxed",
                             children: [
-                                "I promise lots of love, laughter,",
+                                "I promise lots of love, laughter",
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                     fileName: "[project]/src/components/ValentineCard.tsx",
                                     lineNumber: 35,
@@ -381,7 +385,7 @@ function ValentineCard() {
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                            className: "text-xs text-gray-400 mt-5 font-light italic",
+                            className: "text-xs text-black-100 mt-5 font-light italic",
                             children: "(There's also another option nearby, but it seems very shy...)"
                         }, void 0, false, {
                             fileName: "[project]/src/components/ValentineCard.tsx",

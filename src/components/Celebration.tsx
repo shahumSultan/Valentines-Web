@@ -23,7 +23,7 @@ function generateBurst(count: number): BurstHeart[] {
       x: Math.cos((angle * Math.PI) / 180) * distance,
       y: Math.sin((angle * Math.PI) / 180) * distance,
       size: Math.random() * 1.6 + 1,
-      duration: Math.random() * 0.5 + 0.6,
+      duration: Math.random() * 0.3 + 0.6,
       delay: Math.random() * 0.3,
       symbol: BURST_SYMBOLS[i % BURST_SYMBOLS.length],
     };
@@ -31,7 +31,7 @@ function generateBurst(count: number): BurstHeart[] {
 }
 
 export default function Celebration() {
-  const [burstHearts] = useState<BurstHeart[]>(() => generateBurst(26));
+  const [burstHearts] = useState<BurstHeart[]>(() => generateBurst(48));
   const [visible, setVisible] = useState(false);
 
   useEffect(() => {
@@ -53,7 +53,7 @@ export default function Celebration() {
       }}
     >
       {/* Burst particles */}
-      <div className="relative flex items-center justify-center">
+      <div className="relative flex items-center justify-center" style={{ width: "500px", height: "400px" }}>
         <div className="absolute inset-0 flex items-center justify-center">
           {burstHearts.map((h) => (
             <span
@@ -106,13 +106,13 @@ export default function Celebration() {
         aria-hidden="true"
         className="fixed inset-0 pointer-events-none overflow-hidden z-0"
       >
-        {Array.from({ length: 14 }, (_, i) => (
+        {Array.from({ length: 28 }, (_, i) => (
           <span
             key={i}
             className="heart-particle text-2xl"
             style={
               {
-                left: `${(i / 14) * 100}%`,
+                left: `${(i / 28) * 100}%`,
                 "--duration": `${5 + i * 0.5}s`,
                 "--delay": `-${i * 0.8}s`,
               } as React.CSSProperties

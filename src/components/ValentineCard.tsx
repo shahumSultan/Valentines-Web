@@ -30,8 +30,8 @@ export default function ValentineCard() {
           </p>
 
           {/* Sweet message */}
-          <p className="font-dancing text-lg md:text-xl text-pink-500 mb-10 leading-relaxed">
-            I promise lots of love, laughter,
+          <p className="font-dancing text-2xl md:text-2xl text-pink-500 mb-10 leading-relaxed">
+            I promise lots of love, laughter
             <br />
             and probably way too many heart emojis 💕
           </p>
@@ -46,7 +46,7 @@ export default function ValentineCard() {
           </button>
 
           {/* Hint */}
-          <p className="text-xs text-gray-400 mt-5 font-light italic">
+          <p className="text-xs text-black-100 mt-5 font-light italic">
             (There&apos;s also another option nearby, but it seems very shy...)
           </p>
         </div>

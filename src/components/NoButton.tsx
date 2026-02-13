@@ -41,7 +41,7 @@ export default function NoButton() {
         "fixed z-20",
         "px-6 py-2.5",
         "rounded-full",
-        "text-sm font-medium",
+        "text-lg font-medium",
         "select-none cursor-pointer",
         shaking ? "animate-shake" : "",
       ]
