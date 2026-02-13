@@ -1,0 +1,773 @@
+[00:00:00.521] Server  LOG     ✓ Ready in 383ms
+[00:00:02.923] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:03.034] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <ScrollAndFocusHandler segmentPath={[...]}>
+      <InnerScrollAndFocusHandler segmentPath={[...]} focusAndScrollRef={{apply:false, ...}}>
+        <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+          <LoadingBoundary name="/" loading={null}>
+            <HTTPAccessFallbackBoundary notFound={<SegmentViewNode>} forbidden={undefined} unauthorized={undefined}>
+              <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<SegmentViewNode>} forbidden={undefined} ...>
+                <RedirectBoundary>
+                  <RedirectErrorBoundary router={{...}}>
+                    <InnerLayoutRouter url="/" tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} ...>
+                      <SegmentViewNode type="page" pagePath="page.tsx">
+                        <SegmentTrieNode>
+                        <Home>
+                          <main className="relative m...">
+                            <FloatingHearts>
+                              <div aria-hidden="true" className="fixed inse...">
+                                <span
+                                  className="heart-particle"
+                                  style={{
++                                   left: "19.303277425023616%"
+-                                   left: "32.6829%"
++                                   fontSize: "1.64rem"
++                                   opacity: 0.69
+-                                   opacity: "0.61"
++                                   --duration: "9.1s"
+-                                   --duration: "7.2s"
++                                   --delay: "-12.0s"
+-                                   --delay: "-1.8s"
+-                                   font-size: "1.09rem"
+                                  }}
+                                >
++                                 ❤️
+                                <span
+                                  className="heart-particle"
+                                  style={{
++                                   left: "17.049965572248162%"
+-                                   left: "33.0009%"
++                                   fontSize: "1.78rem"
++                                   opacity: 0.66
+-                                   opacity: "0.33"
++                                   --duration: "11.3s"
+-                                   --duration: "7.3s"
++                                   --delay: "-8.0s"
+-                                   --delay: "-9.0s"
+-                                   font-size: "1.98rem"
+                                  }}
+                                >
++                                 🩷
+                                <span
+                                  className="heart-particle"
+                                  style={{
++                                   left: "56.62418853119803%"
+-                                   left: "80.9931%"
++                                   fontSize: "1.51rem"
++                                   opacity: 0.63
+-                                   opacity: "0.67"
++                                   --duration: "8.8s"
+-                                   --duration: "7.7s"
++                                   --delay: "-6.0s"
+-                                   --delay: "-1.1s"
+-                                   font-size: "1.68rem"
+                                  }}
+                                >
++                                 💕
+                                <span
+                                  className="heart-particle"
+                                  style={{
++                                   left: "1.9218032828575866%"
+-                                   left: "94.2508%"
++                                   fontSize: "1.31rem"
++                                   opacity: 0.58
+-                                   opacity: "0.48"
++                                   --duration: "12.5s"
+-                                   --duration: "9.8s"
++                                   --delay: "-3.3s"
+-                                   --delay: "-0.2s"
+-                                   font-size: "0.94rem"
+                                  }}
+                                >
++                                 💗
+                                <span
+                                  className="heart-particle"
+                                  style={{
++                                   left: "20.990864064130196%"
+-                                   left: "37.6343%"
++                                   fontSize: "0.71rem"
++                                   opacity: 0.75
+-                                   opacity: "0.66"
++                                   --duration: "13.2s"
+-                                   --duration: "11.4s"
++                                   --delay: "-11.9s"
+-                                   --delay: "-4.0s"
+-                                   font-size: "0.99rem"
+                                  }}
+                                >
++                                 💓
+                                <span
+                                  className="heart-particle"
+                                  style={{
++                                   left: "53.6536384719359%"
+-                                   left: "83.0157%"
++                                   fontSize: "1.65rem"
++                                   opacity: 0.6
+-                                   opacity: "0.53"
++                                   --duration: "11.0s"
+-                                   --duration: "12.8s"
++                                   --delay: "-5.0s"
+-                                   --delay: "-7.8s"
+-                                   font-size: "2.01rem"
+                                  }}
+                                >
++                                 💖
+                                <span
+                                  className="heart-particle"
+                                  style={{
++                                   left: "7.6122195131128345%"
+-                                   left: "22.3661%"
++                                   fontSize: "0.72rem"
++                                   opacity: 0.3
+-                                   opacity: "0.72"
++                                   --duration: "13.5s"
+-                                   --duration: "13.8s"
++                                   --delay: "-9.2s"
+-                                   --delay: "-5.6s"
+-                                   font-size: "2.25rem"
+                                  }}
+                                >
++                                 ❤️
+                                <span
+                                  className="heart-particle"
+                                  style={{
++                                   left: "88.58949467031664%"
+-                                   left: "23.94%"
++                                   fontSize: "1.37rem"
++                                   opacity: 0.31
+-                                   opacity: "0.53"
++                                   --duration: "13.0s"
+-                                   --duration: "11.1s"
++                                   --delay: "-4.4s"
+-                                   --delay: "-2.3s"
+-                                   font-size: "1.64rem"
+                                  }}
+                                >
++                                 🩷
+                                <span
+                                  className="heart-particle"
+                                  style={{
++                                   left: "31.92890265592138%"
+-                                   left: "62.3272%"
++                                   fontSize: "1.98rem"
++                                   opacity: 0.28
+-                                   opacity: "0.5"
++                                   --duration: "13.9s"
+-                                   --duration: "8.0s"
++                                   --delay: "-3.3s"
+-                                   --delay: "-6.7s"
+-                                   font-size: "1.82rem"
+                                  }}
+                                >
++                                 💕
+                                <span
+                                  className="heart-particle"
+                                  style={{
++                                   left: "79.22664331688185%"
+-                                   left: "12.5898%"
++                                   fontSize: "2.28rem"
++                                   opacity: 0.75
+-                                   opacity: "0.79"
++                                   --duration: "11.0s"
+-                                   --duration: "9.6s"
++                                   --delay: "-0.1s"
+-                                   --delay: "-6.5s"
+-                                   font-size: "1.28rem"
+                                  }}
+                                >
++                                 💗
+                                <span
+                                  className="heart-particle"
+                                  style={{
++                                   left: "85.936504806296%"
+-                                   left: "42.9918%"
++                                   fontSize: "2.14rem"
++                                   opacity: 0.65
+-                                   opacity: "0.59"
++                                   --duration: "11.8s"
+-                                   --duration: "11.4s"
++                                   --delay: "-11.3s"
+-                                   --delay: "-3.7s"
+-                                   font-size: "1.35rem"
+                                  }}
+                                >
++                                 💓
+                                <span
+                                  className="heart-particle"
+                                  style={{
++                                   left: "48.198304411811954%"
+-                                   left: "5.32529%"
++                                   fontSize: "2.05rem"
++                                   opacity: 0.41
+-                                   opacity: "0.49"
++                                   --duration: "14.7s"
+-                                   --duration: "9.3s"
++                                   --delay: "-11.5s"
+-                                   --delay: "-0.3s"
+-                                   font-size: "1.77rem"
+                                  }}
+                                >
++                                 💖
+                                <span
+                                  className="heart-particle"
+                                  style={{
++                                   left: "37.338652020321824%"
+-                                   left: "5.09345%"
++                                   fontSize: "1.96rem"
++                                   opacity: 0.37
+-                                   opacity: "0.59"
++                                   --duration: "11.5s"
+-                                   --duration: "12.8s"
++                                   --delay: "-8.3s"
+-                                   --delay: "-0.2s"
+-                                   font-size: "1.22rem"
+                                  }}
+                                >
++                                 ❤️
+                                <span
+                                  className="heart-particle"
+                                  style={{
++                                   left: "9.093012486267257%"
+-                                   left: "88.8306%"
++                                   fontSize: "0.98rem"
++                                   opacity: 0.63
+-                                   opacity: "0.6"
++                                   --duration: "11.8s"
+-                                   --duration: "7.4s"
++                                   --delay: "-1.9s"
+-                                   --delay: "-7.1s"
+-                                   font-size: "2.02rem"
+                                  }}
+                                >
++                                 🩷
+                                <span
+                                  className="heart-particle"
+                                  style={{
++                                   left: "24.17964910442865%"
+-                                   left: "46.8011%"
++                                   fontSize: "1.17rem"
++                                   opacity: 0.38
+-                                   opacity: "0.7"
++                                   --duration: "9.0s"
+-                                   --duration: "8.7s"
++                                   --delay: "-3.3s"
+-                                   --delay: "-7.7s"
+-                                   font-size: "1.06rem"
+                                  }}
+                                >
++                                 💕
+                                <span
+                                  className="heart-particle"
+                                  style={{
++                                   left: "34.71234773865307%"
+-                                   left: "33.2316%"
++                                   fontSize: "1.48rem"
++                                   opacity: 0.79
+-                                   opacity: "0.63"
++                                   --duration: "8.3s"
+-                                   --duration: "14.9s"
++                                   --delay: "-11.9s"
+-                                   --delay: "-2.6s"
+-                                   font-size: "1.51rem"
+                                  }}
+                                >
++                                 💗
+                                <span
+                                  className="heart-particle"
+                                  style={{
++                                   left: "33.49781231179009%"
+-                                   left: "87.8993%"
++                                   fontSize: "2.17rem"
++                                   opacity: 0.37
+-                                   opacity: "0.5"
++                                   --duration: "8.7s"
+-                                   --duration: "12.8s"
++                                   --delay: "-6.7s"
+-                                   --delay: "-5.5s"
+-                                   font-size: "0.94rem"
+                                  }}
+                                >
++                                 💓
+                                <span
+                                  className="heart-particle"
+                                  style={{
++                                   left: "89.00654870354461%"
+-                                   left: "31.9082%"
++                                   fontSize: "1.36rem"
++                                   opacity: 0.67
+-                                   opacity: "0.49"
++                                   --duration: "14.6s"
+-                                   --duration: "10.5s"
++                                   --delay: "-6.5s"
+-                                   --delay: "-10.0s"
+-                                   font-size: "1.28rem"
+                                  }}
+                                >
++                                 💖
+                                <span
+                                  className="heart-particle"
+                                  style={{
++                                   left: "17.474069710447758%"
+-                                   left: "50.4825%"
++                                   fontSize: "0.99rem"
++                                   opacity: 0.52
+-                                   opacity: "0.52"
++                                   --duration: "13.6s"
+-                                   --duration: "8.2s"
++                                   --delay: "-11.3s"
+-                                   --delay: "-5.5s"
+-                                   font-size: "0.98rem"
+                                  }}
+                                >
++                                 ❤️
+                                <span
+                                  className="heart-particle"
+                                  style={{
++                                   left: "29.02351467042303%"
+-                                   left: "89.1241%"
++                                   fontSize: "1.21rem"
++                                   opacity: 0.51
+-                                   opacity: "0.65"
++                                   --duration: "13.6s"
+-                                   --duration: "9.5s"
++                                   --delay: "-8.6s"
+-                                   --delay: "-7.1s"
+-                                   font-size: "0.97rem"
+                                  }}
+                                >
++                                 🩷
+                                <span
+                                  className="heart-particle"
+                                  style={{
++                                   left: "19.167444192551613%"
+-                                   left: "2.84981%"
++                                   fontSize: "0.82rem"
++                                   opacity: 0.65
+-                                   opacity: "0.79"
++                                   --duration: "10.6s"
+-                                   --duration: "14.4s"
++                                   --delay: "-8.9s"
+-                                   --delay: "-8.8s"
+-                                   font-size: "1.44rem"
+                                  }}
+                                >
++                                 💕
+                                <span
+                                  className="heart-particle"
+                                  style={{
++                                   left: "94.72774673202632%"
+-                                   left: "5.40361%"
++                                   fontSize: "1.78rem"
++                                   opacity: 0.54
+-                                   opacity: "0.3"
++                                   --duration: "8.3s"
+-                                   --duration: "7.5s"
++                                   --delay: "-4.6s"
+-                                   --delay: "-0.6s"
+-                                   font-size: "1.26rem"
+                                  }}
+                                >
++                                 💗
+                            ...
+                      ...
+                    ...
+        ...
+
+[00:00:19.606] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:19.716] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <ScrollAndFocusHandler segmentPath={[...]}>
+      <InnerScrollAndFocusHandler segmentPath={[...]} focusAndScrollRef={{apply:false, ...}}>
+        <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+          <LoadingBoundary name="/" loading={null}>
+            <HTTPAccessFallbackBoundary notFound={<SegmentViewNode>} forbidden={undefined} unauthorized={undefined}>
+              <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<SegmentViewNode>} forbidden={undefined} ...>
+                <RedirectBoundary>
+                  <RedirectErrorBoundary router={{...}}>
+                    <InnerLayoutRouter url="/" tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} ...>
+                      <SegmentViewNode type="page" pagePath="page.tsx">
+                        <SegmentTrieNode>
+                        <Home>
+                          <main className="relative m...">
+                            <FloatingHearts>
+                              <div aria-hidden="true" className="fixed inse...">
+                                <span
+                                  className="heart-particle"
+                                  style={{
++                                   left: "80.48049433613454%"
+-                                   left: "64.6289%"
++                                   fontSize: "2.01rem"
++                                   opacity: 0.62
+-                                   opacity: "0.45"
++                                   --duration: "7.1s"
+-                                   --duration: "10.6s"
++                                   --delay: "-11.3s"
+-                                   --delay: "-4.1s"
+-                                   font-size: "1.54rem"
+                                  }}
+                                >
++                                 ❤️
+                                <span
+                                  className="heart-particle"
+                                  style={{
++                                   left: "11.608649127659133%"
+-                                   left: "67.3086%"
++                                   fontSize: "1.86rem"
++                                   opacity: 0.76
+-                                   opacity: "0.33"
++                                   --duration: "14.2s"
+-                                   --duration: "14.2s"
++                                   --delay: "-10.6s"
+-                                   --delay: "-2.6s"
+-                                   font-size: "1.87rem"
+                                  }}
+                                >
++                                 🩷
+                                <span
+                                  className="heart-particle"
+                                  style={{
++                                   left: "51.234198233887014%"
+-                                   left: "79.8864%"
++                                   fontSize: "1.17rem"
++                                   opacity: 0.32
+-                                   opacity: "0.72"
++                                   --duration: "14.1s"
+-                                   --duration: "7.0s"
++                                   --delay: "-5.3s"
+-                                   --delay: "-0.7s"
+-                                   font-size: "1rem"
+                                  }}
+                                >
++                                 💕
+                                <span
+                                  className="heart-particle"
+                                  style={{
++                                   left: "79.07634080300653%"
+-                                   left: "87.1887%"
++                                   fontSize: "1.36rem"
++                                   opacity: 0.39
+-                                   opacity: "0.34"
++                                   --duration: "11.7s"
+-                                   --duration: "12.3s"
++                                   --delay: "-0.3s"
+-                                   --delay: "-10.7s"
+-                                   font-size: "1.1rem"
+                                  }}
+                                >
++                                 💗
+                                <span
+                                  className="heart-particle"
+                                  style={{
++                                   left: "68.60350139516649%"
+-                                   left: "11.3865%"
++                                   fontSize: "1.02rem"
++                                   opacity: 0.32
+-                                   opacity: "0.53"
++                                   --duration: "11.4s"
+-                                   --duration: "12.1s"
++                                   --delay: "-0.2s"
+-                                   --delay: "-11.7s"
+-                                   font-size: "1.74rem"
+                                  }}
+                                >
++                                 💓
+                                <span
+                                  className="heart-particle"
+                                  style={{
++                                   left: "40.57721982867509%"
+-                                   left: "88.9104%"
++                                   fontSize: "0.87rem"
++                                   opacity: 0.43
+-                                   opacity: "0.78"
++                                   --duration: "12.0s"
+-                                   --duration: "10.0s"
++                                   --delay: "-0.8s"
+-                                   --delay: "-5.9s"
+-                                   font-size: "1.19rem"
+                                  }}
+                                >
++                                 💖
+                                <span
+                                  className="heart-particle"
+                                  style={{
++                                   left: "12.833027234343808%"
+-                                   left: "55.6745%"
++                                   fontSize: "0.90rem"
++                                   opacity: 0.75
+-                                   opacity: "0.74"
++                                   --duration: "10.1s"
+-                                   --duration: "12.9s"
++                                   --delay: "-1.1s"
+-                                   --delay: "-1.8s"
+-                                   font-size: "1.94rem"
+                                  }}
+                                >
++                                 ❤️
+                                <span
+                                  className="heart-particle"
+                                  style={{
++                                   left: "34.25675329150657%"
+-                                   left: "24.4076%"
++                                   fontSize: "1.89rem"
++                                   opacity: 0.8
+-                                   opacity: "0.48"
++                                   --duration: "12.7s"
+-                                   --duration: "11.2s"
++                                   --delay: "-11.6s"
+-                                   --delay: "-7.8s"
+-                                   font-size: "1.14rem"
+                                  }}
+                                >
++                                 🩷
+                                <span
+                                  className="heart-particle"
+                                  style={{
++                                   left: "15.189319654828186%"
+-                                   left: "71.4412%"
++                                   fontSize: "1.27rem"
++                                   opacity: 0.53
+-                                   opacity: "0.61"
++                                   --duration: "10.3s"
+-                                   --duration: "14.3s"
++                                   --delay: "-10.8s"
+-                                   --delay: "-4.4s"
+-                                   font-size: "1.34rem"
+                                  }}
+                                >
++                                 💕
+                                <span
+                                  className="heart-particle"
+                                  style={{
++                                   left: "29.221915628719%"
+-                                   left: "72.6913%"
++                                   fontSize: "1.55rem"
++                                   opacity: 0.64
+-                                   opacity: "0.47"
++                                   --duration: "7.1s"
+-                                   --duration: "11.5s"
++                                   --delay: "-5.5s"
+-                                   --delay: "-3.4s"
+-                                   font-size: "1.1rem"
+                                  }}
+                                >
++                                 💗
+                                <span
+                                  className="heart-particle"
+                                  style={{
++                                   left: "46.560516306640736%"
+-                                   left: "20.7466%"
++                                   fontSize: "1.69rem"
++                                   opacity: 0.71
+-                                   opacity: "0.62"
++                                   --duration: "13.7s"
+-                                   --duration: "11.1s"
++                                   --delay: "-7.0s"
+-                                   --delay: "-0.8s"
+-                                   font-size: "2.1rem"
+                                  }}
+                                >
++                                 💓
+                                <span
+                                  className="heart-particle"
+                                  style={{
++                                   left: "26.91242483954908%"
+-                                   left: "32.569%"
++                                   fontSize: "0.88rem"
++                                   opacity: 0.49
+-                                   opacity: "0.62"
++                                   --duration: "10.6s"
+-                                   --duration: "11.9s"
++                                   --delay: "-2.9s"
+-                                   --delay: "-2.3s"
+-                                   font-size: "1.64rem"
+                                  }}
+                                >
++                                 💖
+                                <span
+                                  className="heart-particle"
+                                  style={{
++                                   left: "5.037105400716804%"
+-                                   left: "53.7004%"
++                                   fontSize: "2.02rem"
++                                   opacity: 0.36
+-                                   opacity: "0.63"
++                                   --duration: "7.8s"
+-                                   --duration: "14.5s"
++                                   --delay: "-10.0s"
+-                                   --delay: "-2.0s"
+-                                   font-size: "1.14rem"
+                                  }}
+                                >
++                                 ❤️
+                                <span
+                                  className="heart-particle"
+                                  style={{
++                                   left: "68.44269247319058%"
+-                                   left: "43.094%"
++                                   fontSize: "0.81rem"
++                                   opacity: 0.37
+-                                   opacity: "0.61"
++                                   --duration: "12.6s"
+-                                   --duration: "12.5s"
++                                   --delay: "-5.5s"
+-                                   --delay: "-0.5s"
+-                                   font-size: "1.81rem"
+                                  }}
+                                >
++                                 🩷
+                                <span
+                                  className="heart-particle"
+                                  style={{
++                                   left: "66.05883827247354%"
+-                                   left: "54.2394%"
++                                   fontSize: "1.77rem"
++                                   opacity: 0.3
+-                                   opacity: "0.53"
++                                   --duration: "7.1s"
+-                                   --duration: "12.3s"
++                                   --delay: "-6.8s"
+-                                   --delay: "-8.9s"
+-                                   font-size: "2.28rem"
+                                  }}
+                                >
++                                 💕
+                                <span
+                                  className="heart-particle"
+                                  style={{
++                                   left: "59.27788373298894%"
+-                                   left: "63.0814%"
++                                   fontSize: "2.14rem"
++                                   opacity: 0.31
+-                                   opacity: "0.72"
++                                   --duration: "9.6s"
+-                                   --duration: "11.3s"
++                                   --delay: "-11.8s"
+-                                   --delay: "-10.4s"
+-                                   font-size: "0.94rem"
+                                  }}
+                                >
++                                 💗
+                                <span
+                                  className="heart-particle"
+                                  style={{
++                                   left: "24.64700333103592%"
+-                                   left: "59.6018%"
++                                   fontSize: "2.08rem"
++                                   opacity: 0.26
+-                                   opacity: "0.6"
++                                   --duration: "14.8s"
+-                                   --duration: "12.1s"
++                                   --delay: "-0.3s"
+-                                   --delay: "-9.9s"
+-                                   font-size: "1.29rem"
+                                  }}
+                                >
++                                 💓
+                                <span
+                                  className="heart-particle"
+                                  style={{
++                                   left: "71.2302428407756%"
+-                                   left: "38.2836%"
++                                   fontSize: "1.24rem"
++                                   opacity: 0.7
+-                                   opacity: "0.56"
++                                   --duration: "8.7s"
+-                                   --duration: "11.5s"
++                                   --delay: "-1.7s"
+-                                   --delay: "-10.3s"
+-                                   font-size: "1.24rem"
+                                  }}
+                                >
++                                 💖
+                                <span
+                                  className="heart-particle"
+                                  style={{
++                                   left: "45.80819899091361%"
+-                                   left: "1.91655%"
++                                   fontSize: "1.66rem"
++                                   opacity: 0.77
+-                                   opacity: "0.45"
++                                   --duration: "11.9s"
+-                                   --duration: "9.6s"
++                                   --delay: "-0.8s"
+-                                   --delay: "-6.7s"
+-                                   font-size: "1.92rem"
+                                  }}
+                                >
++                                 ❤️
+                                <span
+                                  className="heart-particle"
+                                  style={{
++                                   left: "17.41972654440497%"
+-                                   left: "67.4049%"
++                                   fontSize: "1.21rem"
++                                   opacity: 0.43
+-                                   opacity: "0.51"
++                                   --duration: "14.9s"
+-                                   --duration: "11.0s"
++                                   --delay: "-7.7s"
+-                                   --delay: "-9.3s"
+-                                   font-size: "1.58rem"
+                                  }}
+                                >
++                                 🩷
+                                <span
+                                  className="heart-particle"
+                                  style={{
++                                   left: "41.332956374891566%"
+-                                   left: "69.5122%"
++                                   fontSize: "0.77rem"
++                                   opacity: 0.42
+-                                   opacity: "0.39"
++                                   --duration: "10.5s"
+-                                   --duration: "11.1s"
++                                   --delay: "-4.2s"
+-                                   --delay: "-9.7s"
+-                                   font-size: "2.12rem"
+                                  }}
+                                >
++                                 💕
+                                <span
+                                  className="heart-particle"
+                                  style={{
++                                   left: "9.520649556319853%"
+-                                   left: "92.2283%"
++                                   fontSize: "2.29rem"
++                                   opacity: 0.54
+-                                   opacity: "0.57"
++                                   --duration: "10.1s"
+-                                   --duration: "10.8s"
++                                   --delay: "-9.2s"
+-                                   --delay: "-11.8s"
+-                                   font-size: "1.24rem"
+                                  }}
+                                >
++                                 💗
+                            ...
+                      ...
+                    ...
+        ...
+
